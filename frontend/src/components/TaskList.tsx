@@ -13,8 +13,8 @@ const TaskList = ({ tasks, onTaskDeleted }: TaskListProps) => {
   if (tasks.length === 0) {
     return (
       <div className="glass fade-in" style={{ padding: '4rem', textAlign: 'center', opacity: 0.6 }}>
-        <p fontSize="1.2rem">Nenhuma tarefa encontrada.</p>
-        <p fontSize="0.9rem">Comece criando uma nova sumarização acima!</p>
+        <p style={{ fontSize: '1.2rem' }}>Nenhuma tarefa encontrada.</p>
+        <p style={{ fontSize: '0.9rem' }}>Comece criando uma nova sumarização acima!</p>
       </div>
     );
   }
